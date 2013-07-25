@@ -35,6 +35,6 @@ android {
 
   dependencies {
     compile 'com.android.support:support-v4:13.0.0'
-    compile project(':libraries:emojimenu')
+    compile project(':emojimenu')
   }
 }
