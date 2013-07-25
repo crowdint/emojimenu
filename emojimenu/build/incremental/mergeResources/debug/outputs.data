@@ -1,12 +1,12 @@
 # incremental data. DO NOT EDIT.
 # format is <lastModified> <length> <SHA-1> <path>
 # Encoding is UTF-8
-1374597081000 334 604d8f0cbcdf5c2d0f4c0e5ebb78fefc86cdfbd7 /Users/crowdint/workspace/retrospectus-android/libraries/emojimenu/build/bundles/debug/res/values-v14/values.xml
-1374597081000 6302 ece0c07ef8b66bf0721414d15a6f67c966d0022f /Users/crowdint/workspace/retrospectus-android/libraries/emojimenu/build/bundles/debug/res/drawable-mdpi/loading_gray.png
-1374597081000 708 6ad2ec63920c2a003324766ee12fb1e6942bf34f /Users/crowdint/workspace/retrospectus-android/libraries/emojimenu/build/bundles/debug/res/layout/emojis_grid.xml
-1374597081000 933 e9795086e1dcb957ff59b6a643316a23c8fdafd5 /Users/crowdint/workspace/retrospectus-android/libraries/emojimenu/build/bundles/debug/res/values/values.xml
-1374597081000 675 fa1484a8e02850284a7b2e317fc3975ca617b9f7 /Users/crowdint/workspace/retrospectus-android/libraries/emojimenu/build/bundles/debug/res/layout/emojis_item.xml
-1374597081000 14383 82acdd75e3fcc36026109406625edc69d4d7212d /Users/crowdint/workspace/retrospectus-android/libraries/emojimenu/build/bundles/debug/res/drawable-xhdpi/ic_launcher.png
-1374597081000 9397 4a5a9affbb731f195fc18fea78d51be7db7536a2 /Users/crowdint/workspace/retrospectus-android/libraries/emojimenu/build/bundles/debug/res/drawable-hdpi/ic_launcher.png
-1374597081000 320 6eeb82d162b36ae79613d6f4d9f561d8a132d07e /Users/crowdint/workspace/retrospectus-android/libraries/emojimenu/build/bundles/debug/res/values-v11/values.xml
-1374597081000 2244 599f92e8b661974812e6194bdf5b6be7082b8f87 /Users/crowdint/workspace/retrospectus-android/libraries/emojimenu/build/bundles/debug/res/layout/emojis_popup.xml
+1374793235000 302 ef5c89a2759b2906edf8ecec0369b749bca6be49 /home/paul/workspace/eclipse/emojimenu/emojimenu/build/bundles/debug/res/values-v11/values.xml
+1374793235000 316 c4b2df435208ca4cc97a347cda08d054b6bcf147 /home/paul/workspace/eclipse/emojimenu/emojimenu/build/bundles/debug/res/values-v14/values.xml
+1374793235000 897 ba558bc6389e9ae34fe2637e5acbc7ce703cd025 /home/paul/workspace/eclipse/emojimenu/emojimenu/build/bundles/debug/res/values/values.xml
+1374793235000 14383 82acdd75e3fcc36026109406625edc69d4d7212d /home/paul/workspace/eclipse/emojimenu/emojimenu/build/bundles/debug/res/drawable-xhdpi/ic_launcher.png
+1374793235000 690 27018e681430132b152dc804f6c023bb81cdef51 /home/paul/workspace/eclipse/emojimenu/emojimenu/build/bundles/debug/res/layout/emojis_grid.xml
+1374793235000 2226 8499b600dfcfc12a7dea81cafe12d4f62f939e66 /home/paul/workspace/eclipse/emojimenu/emojimenu/build/bundles/debug/res/layout/emojis_popup.xml
+1374793235000 657 b819061e5a7eb51e18ff3ed5d82634172b5e3cb5 /home/paul/workspace/eclipse/emojimenu/emojimenu/build/bundles/debug/res/layout/emojis_item.xml
+1374793235000 9397 4a5a9affbb731f195fc18fea78d51be7db7536a2 /home/paul/workspace/eclipse/emojimenu/emojimenu/build/bundles/debug/res/drawable-hdpi/ic_launcher.png
+1374793235000 6302 ece0c07ef8b66bf0721414d15a6f67c966d0022f /home/paul/workspace/eclipse/emojimenu/emojimenu/build/bundles/debug/res/drawable-mdpi/loading_gray.png
