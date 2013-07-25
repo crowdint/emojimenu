@@ -2,7 +2,6 @@ package com.crowdint.emojimenu_sample.test;
 
 import android.test.ActivityInstrumentationTestCase2;
 import android.test.TouchUtils;
-import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
