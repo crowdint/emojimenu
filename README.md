@@ -31,5 +31,5 @@ Bind your Android Views:
     EditText input = (EditText) mainActivity.findViewById(yourInputView);
     emojiMenu.setBinding(button, input);
 
-![emoji menu](https://github.com/crowdint/emojimenu/blob/master/emoji-menu.png)
-![emoji input](https://github.com/crowdint/emojimenu/blob/master/emoji-input.png)
+![emoji menu](emoji-menu.png)
+![emoji input](emoji-input.png)
