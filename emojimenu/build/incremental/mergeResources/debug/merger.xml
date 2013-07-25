@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/Users/crowdint/workspace/retrospectus-android/libraries/emojimenu/res" >
+            <file
+                name="ic_launcher"
+                path="/Users/crowdint/workspace/retrospectus-android/libraries/emojimenu/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="loading_gray"
+                path="/Users/crowdint/workspace/retrospectus-android/libraries/emojimenu/res/drawable-mdpi/loading_gray.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/crowdint/workspace/retrospectus-android/libraries/emojimenu/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="emojis_grid"
+                path="/Users/crowdint/workspace/retrospectus-android/libraries/emojimenu/res/layout/emojis_grid.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="emojis_item"
+                path="/Users/crowdint/workspace/retrospectus-android/libraries/emojimenu/res/layout/emojis_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="emojis_popup"
+                path="/Users/crowdint/workspace/retrospectus-android/libraries/emojimenu/res/layout/emojis_popup.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                path="/Users/crowdint/workspace/retrospectus-android/libraries/emojimenu/res/values/strings.xml"
+                qualifiers="" >
+                <string name="button_description" >Emoticons Button
+                </string>
+                <string name="back" >Back
+                </string>
+                <string name="app_name" >emojis
+                </string>
+                <string name="delete" >Delete
+                </string>
+            </file>
+            <file
+                path="/Users/crowdint/workspace/retrospectus-android/libraries/emojimenu/res/values/styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/crowdint/workspace/retrospectus-android/libraries/emojimenu/res/values-v11/styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/crowdint/workspace/retrospectus-android/libraries/emojimenu/res/values-v14/styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+        </source>
+        <source path="/Users/crowdint/workspace/retrospectus-android/libraries/emojimenu/build/res/rs/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/crowdint/workspace/retrospectus-android/libraries/emojimenu/src/debug/res" />
+    </dataSet>
+
+</merger>

@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/emojis_popup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:padding="8dp" >
+
+        <TextView
+            android:id="@+id/delete_emoji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@android:color/white"
+            android:padding="8dp"
+            android:text="@string/delete"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/delete_emoji"
+            android:layout_alignBottom="@+id/delete_emoji"
+            android:layout_alignParentLeft="true"
+            android:background="@android:color/white"
+            android:padding="8dp"
+            android:text="@string/back"
+            android:textColor="@android:color/black" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/pager_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/emojis_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp" />
+
+        <ImageView
+            android:id="@+id/loading_emojis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/loading_gray"
+            android:layout_gravity="center_horizontal|center_vertical" />
+    </FrameLayout>
+
+</LinearLayout><!-- From: file:/Users/crowdint/workspace/retrospectus-android/libraries/emojimenu/res/layout/emojis_popup.xml -->

@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">emojis</string>
+    <string name="back">Back</string>
+    <string name="button_description">Emoticons Button</string>
+    <string name="delete">Delete</string>
+
+</resources>
