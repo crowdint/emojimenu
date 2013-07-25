@@ -2,39 +2,14 @@
 <merger>
 
     <dataSet config="main" >
-        <source path="/Users/crowdint/workspace/emojimenu/emojimenu/res" >
-            <file
-                name="ic_launcher"
-                path="/Users/crowdint/workspace/emojimenu/emojimenu/res/drawable-hdpi/ic_launcher.png"
-                qualifiers="hdpi"
-                type="drawable" />
+        <source path="/home/paul/workspace/eclipse/emojimenu/emojimenu/res" >
             <file
                 name="loading_gray"
-                path="/Users/crowdint/workspace/emojimenu/emojimenu/res/drawable-mdpi/loading_gray.png"
+                path="/home/paul/workspace/eclipse/emojimenu/emojimenu/res/drawable-mdpi/loading_gray.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
-                name="ic_launcher"
-                path="/Users/crowdint/workspace/emojimenu/emojimenu/res/drawable-xhdpi/ic_launcher.png"
-                qualifiers="xhdpi"
-                type="drawable" />
-            <file
-                name="emojis_grid"
-                path="/Users/crowdint/workspace/emojimenu/emojimenu/res/layout/emojis_grid.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="emojis_item"
-                path="/Users/crowdint/workspace/emojimenu/emojimenu/res/layout/emojis_item.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="emojis_popup"
-                path="/Users/crowdint/workspace/emojimenu/emojimenu/res/layout/emojis_popup.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                path="/Users/crowdint/workspace/emojimenu/emojimenu/res/values/strings.xml"
+                path="/home/paul/workspace/eclipse/emojimenu/emojimenu/res/values/strings.xml"
                 qualifiers="" >
                 <string name="button_description" >Emoticons Button
                 </string>
@@ -46,7 +21,7 @@
                 </string>
             </file>
             <file
-                path="/Users/crowdint/workspace/emojimenu/emojimenu/res/values/styles.xml"
+                path="/home/paul/workspace/eclipse/emojimenu/emojimenu/res/values/styles.xml"
                 qualifiers="" >
 
                 <style
@@ -68,7 +43,38 @@
                 </style>
             </file>
             <file
-                path="/Users/crowdint/workspace/emojimenu/emojimenu/res/values-v11/styles.xml"
+                name="emojis_item"
+                path="/home/paul/workspace/eclipse/emojimenu/emojimenu/res/layout/emojis_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="emojis_grid"
+                path="/home/paul/workspace/eclipse/emojimenu/emojimenu/res/layout/emojis_grid.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="emojis_popup"
+                path="/home/paul/workspace/eclipse/emojimenu/emojimenu/res/layout/emojis_popup.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                path="/home/paul/workspace/eclipse/emojimenu/emojimenu/res/values-v14/styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                name="ic_launcher"
+                path="/home/paul/workspace/eclipse/emojimenu/emojimenu/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                path="/home/paul/workspace/eclipse/emojimenu/emojimenu/res/values-v11/styles.xml"
                 qualifiers="v11" >
 
                 <style
@@ -79,21 +85,15 @@
                 </style>
             </file>
             <file
-                path="/Users/crowdint/workspace/emojimenu/emojimenu/res/values-v14/styles.xml"
-                qualifiers="v14" >
-
-                <style
-                    name="AppBaseTheme"
-                    parent="android:Theme.Holo.Light.DarkActionBar" >
-
-                    <!-- API 14 theme customizations can go here. -->
-                </style>
-            </file>
+                name="ic_launcher"
+                path="/home/paul/workspace/eclipse/emojimenu/emojimenu/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi"
+                type="drawable" />
         </source>
-        <source path="/Users/crowdint/workspace/emojimenu/emojimenu/build/res/rs/debug" />
+        <source path="/home/paul/workspace/eclipse/emojimenu/emojimenu/build/res/rs/debug" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="/Users/crowdint/workspace/emojimenu/emojimenu/src/debug/res" />
+        <source path="/home/paul/workspace/eclipse/emojimenu/emojimenu/src/debug/res" />
     </dataSet>
 
 </merger>
