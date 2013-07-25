@@ -1,0 +1,8 @@
+pairs:
+  pe: Paul Estrada
+  rr: Rafael Ramos
+
+email:
+  prefix: retrospectus
+  no_solo_prefix: true
+  domain: crowdint.com
