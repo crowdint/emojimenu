@@ -13,4 +13,4 @@
         android:contentDescription="@string/button_description"
         android:focusable="false" />
 
-</LinearLayout><!-- From: file:/Users/crowdint/workspace/retrospectus-android/libraries/emojimenu/res/layout/emojis_item.xml -->
+</LinearLayout><!-- From: file:/Users/crowdint/workspace/emojimenu/emojimenu/res/layout/emojis_item.xml -->

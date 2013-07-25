@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.crowdint.emojis"
+    package="com.crowdint.emojimenu"
     android:versionCode="1"
     android:versionName="1.0" >
 

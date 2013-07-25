@@ -2,39 +2,39 @@
 <merger>
 
     <dataSet config="main" >
-        <source path="/Users/crowdint/workspace/retrospectus-android/libraries/emojimenu/res" >
+        <source path="/Users/crowdint/workspace/emojimenu/emojimenu/res" >
             <file
                 name="ic_launcher"
-                path="/Users/crowdint/workspace/retrospectus-android/libraries/emojimenu/res/drawable-hdpi/ic_launcher.png"
+                path="/Users/crowdint/workspace/emojimenu/emojimenu/res/drawable-hdpi/ic_launcher.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="loading_gray"
-                path="/Users/crowdint/workspace/retrospectus-android/libraries/emojimenu/res/drawable-mdpi/loading_gray.png"
+                path="/Users/crowdint/workspace/emojimenu/emojimenu/res/drawable-mdpi/loading_gray.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="/Users/crowdint/workspace/retrospectus-android/libraries/emojimenu/res/drawable-xhdpi/ic_launcher.png"
+                path="/Users/crowdint/workspace/emojimenu/emojimenu/res/drawable-xhdpi/ic_launcher.png"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
                 name="emojis_grid"
-                path="/Users/crowdint/workspace/retrospectus-android/libraries/emojimenu/res/layout/emojis_grid.xml"
+                path="/Users/crowdint/workspace/emojimenu/emojimenu/res/layout/emojis_grid.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="emojis_item"
-                path="/Users/crowdint/workspace/retrospectus-android/libraries/emojimenu/res/layout/emojis_item.xml"
+                path="/Users/crowdint/workspace/emojimenu/emojimenu/res/layout/emojis_item.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="emojis_popup"
-                path="/Users/crowdint/workspace/retrospectus-android/libraries/emojimenu/res/layout/emojis_popup.xml"
+                path="/Users/crowdint/workspace/emojimenu/emojimenu/res/layout/emojis_popup.xml"
                 qualifiers=""
                 type="layout" />
             <file
-                path="/Users/crowdint/workspace/retrospectus-android/libraries/emojimenu/res/values/strings.xml"
+                path="/Users/crowdint/workspace/emojimenu/emojimenu/res/values/strings.xml"
                 qualifiers="" >
                 <string name="button_description" >Emoticons Button
                 </string>
@@ -46,7 +46,7 @@
                 </string>
             </file>
             <file
-                path="/Users/crowdint/workspace/retrospectus-android/libraries/emojimenu/res/values/styles.xml"
+                path="/Users/crowdint/workspace/emojimenu/emojimenu/res/values/styles.xml"
                 qualifiers="" >
 
                 <style
@@ -68,7 +68,7 @@
                 </style>
             </file>
             <file
-                path="/Users/crowdint/workspace/retrospectus-android/libraries/emojimenu/res/values-v11/styles.xml"
+                path="/Users/crowdint/workspace/emojimenu/emojimenu/res/values-v11/styles.xml"
                 qualifiers="v11" >
 
                 <style
@@ -79,7 +79,7 @@
                 </style>
             </file>
             <file
-                path="/Users/crowdint/workspace/retrospectus-android/libraries/emojimenu/res/values-v14/styles.xml"
+                path="/Users/crowdint/workspace/emojimenu/emojimenu/res/values-v14/styles.xml"
                 qualifiers="v14" >
 
                 <style
@@ -90,10 +90,10 @@
                 </style>
             </file>
         </source>
-        <source path="/Users/crowdint/workspace/retrospectus-android/libraries/emojimenu/build/res/rs/release" />
+        <source path="/Users/crowdint/workspace/emojimenu/emojimenu/build/res/rs/release" />
     </dataSet>
     <dataSet config="release" >
-        <source path="/Users/crowdint/workspace/retrospectus-android/libraries/emojimenu/src/release/res" />
+        <source path="/Users/crowdint/workspace/emojimenu/emojimenu/src/release/res" />
     </dataSet>
 
 </merger>
