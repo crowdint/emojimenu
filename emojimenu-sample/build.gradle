@@ -12,7 +12,7 @@ apply plugin: 'android'
 
 android {
   compileSdkVersion 16
-  buildToolsVersion '17'
+  buildToolsVersion '18'
   
   sourceSets {
     main {

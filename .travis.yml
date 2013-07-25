@@ -20,10 +20,10 @@ before_install:
   - export PATH=$GRADLE_HOME/bin:$PATH
 
   # install android build tools
-  - wget https://dl-ssl.google.com/android/repository/build-tools_r17-linux.zip
-  - unzip build-tools_r17-linux.zip -d $ANDROID_HOME
+  - wget https://dl-ssl.google.com/android/repository/build-tools_r18-linux.zip
+  - unzip build-tools_r18-linux.zip -d $ANDROID_HOME
   - mkdir -p $ANDROID_HOME/build-tools/
-  - mv $ANDROID_HOME/android-4.2.2 $ANDROID_HOME/build-tools/17.0.0
+  - mv $ANDROID_HOME/android-4.2.2 $ANDROID_HOME/build-tools/18.0.0
 
   # Install required components.
   # For a full list, run `android list sdk -a --extended`
