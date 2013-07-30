@@ -3,7 +3,7 @@ jdk: oraclejdk7
 env:
   matrix:
     # android-16 is always included
-    - ANDROID_SDKS=android-18.0.1,sysimg-18.0.1  ANDROID_TARGET=android-18.0.1  ANDROID_ABI=armeabi-v7a
+    - ANDROID_SDKS=android-18,sysimg-18  ANDROID_TARGET=android-18  ANDROID_ABI=armeabi-v7a
 before_install:
   # Install base Android SDK
   - sudo apt-get update -qq
@@ -32,8 +32,8 @@ before_install:
   #  addon-google_apis-google-16
   - echo yes | android update sdk --filter platform-tools --no-ui --force > /dev/null
   - echo yes | android update sdk --filter android-17 --no-ui --force > /dev/null
-  - echo yes | android update sdk --filter android-18.0.1 --no-ui --force > /dev/null
-  - echo yes | android update sdk --filter sysimg-18.0.1 --no-ui --force > /dev/null
+  - echo yes | android update sdk --filter android-18 --no-ui --force > /dev/null
+  - echo yes | android update sdk --filter sysimg-18 --no-ui --force > /dev/null
   - echo yes | android update sdk --filter extra-android-support --no-ui --force > /dev/null
   - echo yes | android update sdk --filter extra-android-m2repository --no-ui --force > /dev/null
 
