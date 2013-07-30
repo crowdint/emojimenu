@@ -4,7 +4,7 @@ buildscript {
   }
 
   dependencies {
-    classpath 'com.android.tools.build:gradle:0.5.2'
+    classpath 'com.android.tools.build:gradle:0.5.4'
   }
 }
 
@@ -12,7 +12,7 @@ apply plugin: 'android'
 
 android {
   compileSdkVersion 17
-  buildToolsVersion '18'
+  buildToolsVersion '18.0.1'
   
   sourceSets {
     main {
@@ -32,9 +32,9 @@ android {
       resources.srcDirs = ['tests/src']
     }
   }
+}
 
-  dependencies {
-    compile 'com.android.support:support-v4:13.0.0'
-    compile project(':emojimenu')
-  }
+dependencies {
+  compile 'com.android.support:support-v4:13.0.0'
+  compile project(':emojimenu')
 }
