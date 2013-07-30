@@ -3,13 +3,13 @@ jdk: oraclejdk7
 env:
   matrix:
     # android-16 is always included
-    - ANDROID_SDKS=android-18,sysimg-18  ANDROID_TARGET=android-18  ANDROID_ABI=armeabi-v7a
+    - ANDROID_SDKS=android-18.0.1,sysimg-18.0.1  ANDROID_TARGET=android-18.0.1  ANDROID_ABI=armeabi-v7a
 before_install:
   # Install base Android SDK
   - sudo apt-get update -qq
   - if [ `uname -m` = x86_64 ]; then sudo apt-get install -qq --force-yes libgd2-xpm ia32-libs ia32-libs-multiarch > /dev/null; fi
-  - wget http://dl.google.com/android/android-sdk_r22.0.4-linux.tgz
-  - tar xzf android-sdk_r22.0.4-linux.tgz
+  - wget http://dl.google.com/android/android-sdk_r22.0.5-linux.tgz
+  - tar xzf android-sdk_r22.0.5-linux.tgz
   - export ANDROID_HOME=$PWD/android-sdk-linux
   - export PATH=${PATH}:${ANDROID_HOME}/tools:${ANDROID_HOME}/platform-tools
   
@@ -20,10 +20,10 @@ before_install:
   - export PATH=$GRADLE_HOME/bin:$PATH
 
   # install android build tools
-  - wget https://dl-ssl.google.com/android/repository/build-tools_r18-linux.zip
-  - unzip build-tools_r18-linux.zip -d $ANDROID_HOME
+  - wget https://dl-ssl.google.com/android/repository/build-tools_r18.0.1-linux.zip
+  - unzip build-tools_r18.0.1-linux.zip -d $ANDROID_HOME
   - mkdir -p $ANDROID_HOME/build-tools/
-  - mv $ANDROID_HOME/android-4.3 $ANDROID_HOME/build-tools/18.0.0
+  - mv $ANDROID_HOME/android-4.3 $ANDROID_HOME/build-tools/18.0.1
 
   # Install required components.
   # For a full list, run `android list sdk -a --extended`
@@ -32,8 +32,8 @@ before_install:
   #  addon-google_apis-google-16
   - echo yes | android update sdk --filter platform-tools --no-ui --force > /dev/null
   - echo yes | android update sdk --filter android-17 --no-ui --force > /dev/null
-  - echo yes | android update sdk --filter android-18 --no-ui --force > /dev/null
-  - echo yes | android update sdk --filter sysimg-18 --no-ui --force > /dev/null
+  - echo yes | android update sdk --filter android-18.0.1 --no-ui --force > /dev/null
+  - echo yes | android update sdk --filter sysimg-18.0.1 --no-ui --force > /dev/null
   - echo yes | android update sdk --filter extra-android-support --no-ui --force > /dev/null
   - echo yes | android update sdk --filter extra-android-m2repository --no-ui --force > /dev/null
 
